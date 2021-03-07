@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+   
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #maincont {
+    height: inherit;
+}
+  
+  #mainrow{
+    height: inherit;
+  }
+
+  #ikona_menu{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #btnrev{
+
+    position: absolute;
+    left: 30px;
+
+  }
+
+  #btnfor{
+    position: absolute;
+    right: 30px;
+  }
