@@ -3,7 +3,7 @@ import { backgrounds } from './backgroundData.js';
 import { ikonyglowne } from './icons.js';
 import { planszeA } from './planszeAdane.js';
 import { planszeB } from './planszeBdane.js';
-//import { planszeC } from './planszeCdane.js';
+import { planszeC } from './planszeCdane.js';
 
 var app = new Vue({
   el: '#app',
