@@ -1,7 +1,7 @@
 import Vue from 'vue/dist/vue.js';
 import { backgrounds } from './backgroundData.js';
 import { ikonyglowne } from './icons.js';
-//import { planszeA } from './planszeAdane.js';
+import { planszeA } from './planszeAdane.js';
 //import { planszeB } from './planszeBdane.js';
 //import { planszeC } from './planszeCdane.js';
 
