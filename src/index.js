@@ -238,6 +238,23 @@ var app = new Vue({
         }
       }
 
+    },
+    home_click: function () {
+      this.licznik.planszeAlicz = 0;
+      this.licznik.planszBClicz = 0;
+      this.licznik.planszeClicz = 0;
+      this.video.seen = false;
+      this.appbackground.src = backgrounds[0];
+      this.buttonreverse1.seen = false;
+      this.buttonforward1.seen = false;
+      this.buttonreverse2.seen = false;
+      this.buttonforward2.seen = false;
+      this.buttonreverse3.seen = false;
+      this.buttonforward3.seen = false;
+      this.ikon1.seen = true;
+      this.ikon2.seen = true;
+      this.ikon3.seen = true;
+      this.homeicon.seen = false;
     }
   }
 })
