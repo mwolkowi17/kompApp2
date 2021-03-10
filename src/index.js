@@ -31,6 +31,9 @@ var app = new Vue({
         seen: true,
         hover: false
       },
+      homeicon: {
+        seen: false
+      },
       video: {
 
         src: "",
@@ -69,6 +72,7 @@ var app = new Vue({
       this.ikon3.seen = false;
       this.buttonreverse1.seen = true;
       this.buttonforward1.seen = true;
+      this.homeicon.seen = true;
     },
     ikon2change1: function () {
       this.ikon2.hover = false;
@@ -78,6 +82,7 @@ var app = new Vue({
       this.video.seen = true;
       this.buttonreverse2.seen = true;
       this.buttonforward2.seen = true;
+      this.homeicon.seen = true;
     },
     ikon3change1: function () {
       this.ikon3.hover = false;
@@ -87,6 +92,7 @@ var app = new Vue({
       this.video.seen = true;
       this.buttonreverse3.seen = true;
       this.buttonforward3.seen = true;
+      this.homeicon.seen = true;
     },
     btnforA: function () {
       this.licznik.planszeAlicz++;
