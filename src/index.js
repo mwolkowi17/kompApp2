@@ -110,6 +110,7 @@ var app = new Vue({
         this.ikon1.seen = true;
         this.ikon2.seen = true;
         this.ikon3.seen = true;
+        this.homeicon.seen = false;
 
       }
     },
@@ -126,6 +127,7 @@ var app = new Vue({
         this.buttonreverse1.seen = false;
         this.buttonforward1.seen = false;
         this.licznik.planszeAlicz = 0;
+        this.homeicon.seen = false;
       }
 
       if (this.video.seen === true) {
@@ -152,6 +154,7 @@ var app = new Vue({
         this.ikon3.seen = true;
         this.buttonreverse2.seen = false;
         this.buttonforward2.seen = false;
+        this.homeicon.seen = false;
 
       }
     },
@@ -169,6 +172,7 @@ var app = new Vue({
         this.ikon3.seen = true;
         this.buttonreverse2.seen = false;
         this.buttonforward2.seen = false;
+        this.homeicon.seen = false;
       }
 
       if (this.appbackground.src === planszeB[0]) {
@@ -205,6 +209,7 @@ var app = new Vue({
         this.ikon3.seen = true;
         this.buttonreverse3.seen = false;
         this.buttonforward3.seen = false;
+        this.homeicon.seen = false;
 
       }
 
@@ -223,6 +228,7 @@ var app = new Vue({
         this.ikon3.seen = true;
         this.buttonreverse3.seen = false;
         this.buttonforward3.seen = false;
+        this.homeicon.seen = false;
       }
 
       if (this.appbackground.src === planszeC[0]) {
