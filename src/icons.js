@@ -4,5 +4,7 @@ export const ikonyglowne = {
     second: "./images/bullying_cz2.png",
     secondcliced: "./images/bullying_cz2clicked.png",
     third: "./images/bullying_cz3.png",
-    thirdcliced: "./images/bullying_cz3clicked.png"
+    thirdcliced: "./images/bullying_cz3clicked.png",
+    home:"./images/home.png",
+    homeclicked:"./images/home_clicked.png"
 }
